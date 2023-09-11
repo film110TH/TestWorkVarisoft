@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class IsometricPlayerMovementController : MonoBehaviour
 {
 
     public float movementSpeed = 1f;
     IsometricCharacterRenderer isoRenderer;
+    public PlayerInput playerInput;
 
     Rigidbody2D rbody;
 
@@ -14,16 +16,15 @@ public class IsometricPlayerMovementController : MonoBehaviour
     {
         rbody = GetComponent<Rigidbody2D>();
         isoRenderer = GetComponentInChildren<IsometricCharacterRenderer>();
+        playerInput = GetComponent<PlayerInput>();
     }
 
-
-    // Update is called once per frame
     void FixedUpdate()
     {
+        Vector2 InputMove = playerInput.actions["Move"].ReadValue<Vector2>();
         Vector2 currentPos = rbody.position;
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
-        Vector2 inputVector = new Vector2(horizontalInput, verticalInput);
+
+        Vector2 inputVector = new Vector2(InputMove.x, InputMove.y);
         inputVector = Vector2.ClampMagnitude(inputVector, 1);
         Vector2 movement = inputVector * movementSpeed;
         Vector2 newPos = currentPos + movement * Time.fixedDeltaTime;

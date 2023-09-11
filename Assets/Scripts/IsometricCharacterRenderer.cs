@@ -10,7 +10,7 @@ public class IsometricCharacterRenderer : MonoBehaviour
     public static readonly string[] runDirections = {"Run N", "Run NW", "Run W", "Run SW", "Run S", "Run SE", "Run E", "Run NE"};
 
     Animator animator;
-    public int lastDirection;
+    public static int lastDirection;
 
     private void Awake()
     {
