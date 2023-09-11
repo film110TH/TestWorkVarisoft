@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.GraphicsBuffer;
+using static UnityEngine.InputSystem.OnScreen.OnScreenStick;
 
 public class PlayerController : Subject
 {
@@ -30,8 +32,11 @@ public class PlayerController : Subject
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (playerInput.actions["Attack"].IsPressed())
             NoitfyObserver(PlayerAction.Attack);
+
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //    NoitfyObserver(PlayerAction.Attack);
     }
 
     void FixedUpdate()
@@ -50,5 +55,24 @@ public class PlayerController : Subject
         Vector2 newPos = currentPos + movement * Time.fixedDeltaTime;
         isoRenderer.SetDirection(movement);
         rbody.MovePosition(newPos);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent<Bullet>(out Bullet bullet))
+        {
+            Bullet _bullet = bullet.GetComponent<Bullet>();
+            if (_bullet.owner.tag != this.gameObject.tag)
+            {
+                bullet.gameObject.SetActive(false);
+                TakeDamage(_bullet.Darmage);
+            }
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        hp -= damage;
+        NoitfyObserver(PlayerAction.TakeDamage);
     }
 }

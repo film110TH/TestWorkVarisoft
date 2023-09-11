@@ -1,6 +1,6 @@
 public enum PlayerAction
 {
     Attack,
-    Hurt
+    TakeDamage
 }
 

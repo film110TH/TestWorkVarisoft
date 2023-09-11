@@ -20,12 +20,16 @@ public class PlayerActionController : MonoBehaviour
         rb2d.velocity = AttackPoint.getAttackPoint(IsometricCharacterRenderer.lastDirection) * 10;
         Tool.SetActive(_bullet, false, 3);
 
+        Bullet AddOwner = _bullet.GetComponent<Bullet>();
+        AddOwner.owner = playercontroller.gameObject;
+        AddOwner.Darmage = playercontroller.damage;
+
         Isfire = false;
         Isfire = await Tool.Delaybool(Isfire, playercontroller.fireRate);
     }
 
-    public void TakeDamage(int Damage)
+    public void OnPlayerTakeDamage()
     {
-        playercontroller.hp -= Damage;
+        Debug.Log("PlayerTakeDamage");
     }
 }

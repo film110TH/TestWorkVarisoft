@@ -8,9 +8,8 @@ public class EnemyIdle : IState
     Vector2 randompo;
 
     bool walkable = true;
-    bool idle = true;
     public EnemyIdle(Enemy _enemy)
-    {
+    { 
         this.enemy = _enemy;
     }
 
@@ -18,7 +17,6 @@ public class EnemyIdle : IState
     {
         enemy.CurrentState = Enemy.EnemyState.Idle;
         randomPosition();
-        //enemy.Invoke(nameof(randompo), 3f);
     }
 
     public void Exit()
@@ -39,9 +37,16 @@ public class EnemyIdle : IState
 
     private async void EnemyMovibg()
     {
+        if (enemy.CurrentState == Enemy.EnemyState.Dead)
+            return;
+
         if (walkable)
         {
             randomPosition();
+
+            if (randompo.x < 0)
+                enemy.GetComponent<SpriteRenderer>().flipX = true;
+            else { enemy.GetComponent<SpriteRenderer>().flipX = false; }
 
             walkable = false;
             walkable = await Tool.Delaybool(walkable, 4f);
@@ -58,3 +63,4 @@ public class EnemyIdle : IState
         Tool.Delayfuntion(() => { randompo = Vector2.zero; }, 2f);
     }
 }
+    

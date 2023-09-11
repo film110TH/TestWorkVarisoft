@@ -26,5 +26,6 @@ public class Behaviour
     public enum BehaviourType { Passpassive , Agassive }
     public BehaviourType behaviourType;
 
+    public string tagbulletPooling;
     public GameObject particle;
 }

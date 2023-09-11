@@ -15,7 +15,7 @@ D:/Github/TestWorkVarisoft
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64481
+62201
 Successfully changed project path to: D:/Github/TestWorkVarisoft
 D:/Github/TestWorkVarisoft
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Github/TestWorkVarisoft
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25140] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 1494300680 [EditorId] 1494300680 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-87JQGIK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26568] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 2502057304 [EditorId] 2502057304 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-87JQGIK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25140] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 1494300680 [EditorId] 1494300680 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-87JQGIK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26568] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 2502057304 [EditorId] 2502057304 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-87JQGIK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 78.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 762.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.28f1 (232e59c3f087)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -67,57 +67,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009457 seconds.
+Registered in 0.007641 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Multiple ADB server instances found, the following ADB server instance have been terminated due to being run from another SDK. Process paths: 
-C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools\adb.exe
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
-UnityEditor.Android.TargetScanWorker:ScanSync ()
-UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
-UnityEditor.Android.TargetExtension:OnLoad ()
-UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
-
-Android Extension - Scanning For ADB Devices 2402 ms
-Refreshing native plugins compatible for Editor in 263.78 ms, found 2 plugins.
+Android Extension - Scanning For ADB Devices 238 ms
+Refreshing native plugins compatible for Editor in 76.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.739 seconds
+- Completed reload, in  0.990 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3741ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (990ms)
+		BeginReloadAssembly (171ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (3496ms)
-			LoadAssemblies (121ms)
+		EndReloadAssembly (719ms)
+			LoadAssemblies (166ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (107ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (3187ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (534ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2592ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (264ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (124ms)
+				InitializePlatformSupportModulesInManaged (330ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011628 seconds.
+Registered in 0.005153 seconds.

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using static UnityEngine.GraphicsBuffer;
 
 public class Enemy : StateMachine
@@ -18,8 +19,13 @@ public class Enemy : StateMachine
     public Animator animator;
     public GameObject target;
 
+    
+    [SerializeField] Image hpbar;
     [HideInInspector]
     public Rigidbody2D rb2d;
+    public Transform looktarget;
+
+
     private void Awake()
     {
         CopyBehaviour();
@@ -31,6 +37,10 @@ public class Enemy : StateMachine
 
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        hpbar = transform.Find("Canvas/HP").GetComponent<Image>();
+        looktarget = transform.Find("LookatTarget");
+        hpbar.fillAmount = 1;
 
         ChangeState(idle);
     }
@@ -47,20 +57,32 @@ public class Enemy : StateMachine
         myEnemy.AttackRang = behaviour.behaviour.AttackRang;
         myEnemy.attackType = behaviour.behaviour.attackType;
         myEnemy.behaviourType= behaviour.behaviour.behaviourType;
+        myEnemy.tagbulletPooling = behaviour.behaviour.tagbulletPooling;
         myEnemy.particle = behaviour.behaviour.particle;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Bullet"))
+        if (collision.TryGetComponent<Bullet>(out Bullet bullet))
         {
-            myEnemy.HP -= 5;
-            collision.gameObject.SetActive(false);
+            myEnemy.behaviourType = Behaviour.BehaviourType.Agassive;
+            Bullet _bullet = bullet.GetComponent<Bullet>();
+            if (_bullet.owner.tag != this.gameObject.tag)
+            {
+                animator.SetTrigger("Hit");
+                myEnemy.HP -= _bullet.Darmage;
+                target = _bullet.owner;
+                ChangeState(moveTotarget);
+                bullet.gameObject.SetActive(false);
+            }
+
+            hpbar.fillAmount =  ((float)myEnemy.HP/ (float)behaviour.behaviour.HP);
+
             if(myEnemy.HP <= 0)
                 ChangeState(dead);
         }
     }
-
+    
     public void CheckEnemySightRang()
     {
         Collider2D[] AttackRang = Physics2D.OverlapCircleAll(rb2d.position - new Vector2(0f, 0.2f), myEnemy.AttackRang / 100);
@@ -69,7 +91,8 @@ public class Enemy : StateMachine
             if (collider2D.TryGetComponent<PlayerController>(out PlayerController player))
             {
                 target = player.gameObject;
-                ChangeState(attack);
+                if(myEnemy.behaviourType == Behaviour.BehaviourType.Agassive)
+                    ChangeState(attack);
                 return;
             }
         }
@@ -80,7 +103,8 @@ public class Enemy : StateMachine
             if (collider2D.TryGetComponent<PlayerController>(out PlayerController player))
             {
                 target = player.gameObject;
-                ChangeState(moveTotarget);
+                if (myEnemy.behaviourType == Behaviour.BehaviourType.Agassive)
+                    ChangeState(moveTotarget);
                 return;
             }
         }
@@ -88,9 +112,16 @@ public class Enemy : StateMachine
         return;
     }
 
+    public void lookatTarget()
+    {
+        Vector3 look = transform.InverseTransformPoint(target.transform.position);
+        float Angle = Mathf.Atan2(look.y, look.x) * Mathf.Rad2Deg - 90;
+        looktarget.localEulerAngles = new Vector3(0f, 0f, Angle);
+    }
+
     public void DestroythisObject()
     {
-        Destroy(gameObject,1f);
+        Destroy(gameObject,0.5f);
     }
 
     private void OnDrawGizmos()

@@ -22,10 +22,11 @@ public class PlayerNarrationSystem : MonoBehaviour , IObserver
                     _controller.OnAttack(_playerSubject.gameObject.transform);
                 }
                 break;
-            case PlayerAction.Hurt:
+            case PlayerAction.TakeDamage:
                 {
-
-                }break;
+                    _controller.OnPlayerTakeDamage();
+                }
+                break;
         }
     }
 
