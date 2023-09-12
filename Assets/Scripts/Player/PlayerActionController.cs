@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerActionController : MonoBehaviour
 {
     bool Isfire = true;
     PlayerController playercontroller;
+
+    [Header("Player")]
+    public Image hpbar;
     private void Awake()
     {
         playercontroller = GetComponentInChildren<PlayerController>();
@@ -31,5 +35,7 @@ public class PlayerActionController : MonoBehaviour
     public void OnPlayerTakeDamage()
     {
         Debug.Log("PlayerTakeDamage");
+
+        hpbar.fillAmount = playercontroller.hp / playercontroller.maxHp;
     }
 }

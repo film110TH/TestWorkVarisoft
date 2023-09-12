@@ -16,6 +16,8 @@ public class EnemyDead : IState
         enemy.GetComponent<Collider2D>().enabled = false;
         enemy.animator.SetTrigger("Death");
         enemy.DestroythisObject();
+        EnemySpawner.Instance.removeEnemyObject(enemy.gameObject);
+        InGameMenuManager.instance.addScore(enemy.myEnemy.Score);
     }
 
     public void Exit()

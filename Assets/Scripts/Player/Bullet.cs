@@ -11,6 +11,6 @@ public class Bullet : MonoBehaviour
     private void FixedUpdate()
     {
         if(locktraget)
-            transform.Translate(Vector3.up * 10f * Time.fixedDeltaTime) ;
+            transform.Translate(Vector3.up * 5f * Time.fixedDeltaTime) ;
     }
 }

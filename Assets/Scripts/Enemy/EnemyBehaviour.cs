@@ -27,5 +27,8 @@ public class Behaviour
     public BehaviourType behaviourType;
 
     public string tagbulletPooling;
+    public int Score;
+
+    [HideInInspector]
     public GameObject particle;
 }

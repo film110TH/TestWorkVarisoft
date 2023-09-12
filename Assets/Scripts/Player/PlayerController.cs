@@ -10,6 +10,8 @@ public class PlayerController : Subject
     public static PlayerController instance;
 
     public float hp;
+    [HideInInspector]
+    public float maxHp;
     public int damage; 
     public float fireRate;
     public float movementSpeed = 1f;
@@ -25,6 +27,7 @@ public class PlayerController : Subject
         if(instance == null)
             instance = this;
 
+        maxHp = hp;
         rbody = GetComponent<Rigidbody2D>();
         isoRenderer = GetComponentInChildren<IsometricCharacterRenderer>();
         playerInput = GetComponent<PlayerInput>();
@@ -34,9 +37,6 @@ public class PlayerController : Subject
     {
         if (playerInput.actions["Attack"].IsPressed())
             NoitfyObserver(PlayerAction.Attack);
-
-        //if (Input.GetKeyDown(KeyCode.Space))
-        //    NoitfyObserver(PlayerAction.Attack);
     }
 
     void FixedUpdate()
@@ -74,5 +74,11 @@ public class PlayerController : Subject
     {
         hp -= damage;
         NoitfyObserver(PlayerAction.TakeDamage);
+
+        if(hp <= 0)
+        {
+            InGameMenuManager.instance.GameOver();
+            Debug.Log("Dead");
+        }
     }
 }

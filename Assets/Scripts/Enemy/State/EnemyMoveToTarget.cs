@@ -14,19 +14,24 @@ public class EnemyMoveToTarget : IState
 
     public void Enter()
     {
+        enemy.animator.SetBool("Run",true);
         enemy.CurrentState = Enemy.EnemyState.MoveToTarget;
         timeToHunt = 10;
     }
 
     public void Exit()
     {
-        
+        enemy.animator.SetBool("Run", false);
     }
 
     public void FixedTick()
     {
         MoveToTarget();
-        enemy.CheckEnemySightRang();
+
+        if (timeToHunt > 0)
+            Timetohunt();
+        else { enemy.CheckEnemySightRang();}
+
         enemy.lookatTarget();
     }
 
@@ -35,6 +40,19 @@ public class EnemyMoveToTarget : IState
         
     }
 
+    public void Timetohunt()
+    {
+        timeToHunt -= Time.deltaTime;
+
+        Collider2D[] AttackRang = Physics2D.OverlapCircleAll(enemy.rb2d.position - new Vector2(0f, 0.2f), enemy.myEnemy.SightRang / 100);
+        foreach (Collider2D collider2D in AttackRang)
+        {
+            if (collider2D.TryGetComponent<PlayerController>(out PlayerController player))
+            {
+                timeToHunt = 0;
+            }
+        }
+    }
     void MoveToTarget()
     {
         Vector2 currentpositin = enemy.rb2d.position;

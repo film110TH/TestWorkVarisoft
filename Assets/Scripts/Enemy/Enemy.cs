@@ -59,6 +59,7 @@ public class Enemy : StateMachine
         myEnemy.behaviourType= behaviour.behaviour.behaviourType;
         myEnemy.tagbulletPooling = behaviour.behaviour.tagbulletPooling;
         myEnemy.particle = behaviour.behaviour.particle;
+        myEnemy.Score = behaviour.behaviour.Score;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -121,7 +122,9 @@ public class Enemy : StateMachine
 
     public void DestroythisObject()
     {
-        Destroy(gameObject,0.5f);
+        Destroy(gameObject,1f);
+        GameObject Deadpaticle = Instantiate(Resources.Load<GameObject>("Prefab/DeadPaticle"), this.transform);
+        Tool.Delayfuntion(() => { Destroy(Deadpaticle, 2f); },1f);
     }
 
     private void OnDrawGizmos()
