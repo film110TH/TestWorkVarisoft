@@ -53,6 +53,7 @@ public class InGameMenuManager : MonoBehaviour
         GameObject _SettingPanel = transform.Find("Canvas/SettingPanel").gameObject;
         _SettingPanel.transform.Find("BG/HeaderText").GetComponent<TMP_Text>().text = "GameOver";
         _SettingPanel.transform.Find("BG/ScoreText").GetComponent<TMP_Text>().text = Score.ToString();
+        _SettingPanel.transform.Find("BG/CloseButton").gameObject.SetActive(false);
         _SettingPanel.SetActive(true);
         SetHihgt();
     }

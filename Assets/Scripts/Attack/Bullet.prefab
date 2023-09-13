@@ -78,9 +78,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: cd730a3753b71f24abd13d989dc4b01f,
+  m_Sprite: {fileID: -2413806693520163455, guid: 617fdb8d793b9614794603dd263a7e68,
     type: 3}
-  m_Color: {r: 0.4338122, g: 1, b: 0.2971698, a: 1}
+  m_Color: {r: 0.14070843, g: 0.6146377, b: 0.9622642, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -171,7 +171,7 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.3932187, g: 0.94509804, b: 0.16470587, a: 1}
+      key0: {r: 0, g: 0.45842028, b: 1, a: 1}
       key1: {r: 1, g: 0.9103575, b: 0.75, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -243,7 +243,7 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0.48828125, y: 0.48828125, z: 0.48828125, w: 0.48828125}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
