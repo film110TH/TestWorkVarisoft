@@ -224,6 +224,7 @@ GameObject:
   - component: {fileID: 8071697493610958438}
   - component: {fileID: 5509314361951310795}
   - component: {fileID: 3891445758191030462}
+  - component: {fileID: 4475928821574432282}
   m_Layer: 0
   m_Name: Golem Phase 1
   m_TagString: Enemy
@@ -346,6 +347,7 @@ MonoBehaviour:
     attackType: 0
     behaviourType: 0
     tagbulletPooling: 
+    Score: 0
     particle: {fileID: 0}
   animator: {fileID: 0}
   target: {fileID: 0}
@@ -389,6 +391,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!210 &4475928821574432282
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7295183296570091921}
+  m_Enabled: 1
+  m_SortingLayerID: 2130146985
+  m_SortingLayer: 1
+  m_SortingOrder: -1
 --- !u!1 &8645105892523359423
 GameObject:
   m_ObjectHideFlags: 0

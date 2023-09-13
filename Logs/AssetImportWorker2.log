@@ -15,7 +15,7 @@ D:/Github/TestWorkVarisoft
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-55507
+62683
 Successfully changed project path to: D:/Github/TestWorkVarisoft
 D:/Github/TestWorkVarisoft
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Github/TestWorkVarisoft
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23608] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 254061774 [EditorId] 254061774 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-87JQGIK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1452] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3829109283 [EditorId] 3829109283 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-87JQGIK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23608] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 254061774 [EditorId] 254061774 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-87JQGIK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1452] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3829109283 [EditorId] 3829109283 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-87JQGIK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 97.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 84.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.28f1 (232e59c3f087)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -72,87 +72,144 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009669 seconds.
+Registered in 0.007521 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 339 ms
-Refreshing native plugins compatible for Editor in 95.39 ms, found 2 plugins.
+Android Extension - Scanning For ADB Devices 217 ms
+Refreshing native plugins compatible for Editor in 78.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.181 seconds
+- Completed reload, in  0.883 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1181ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (884ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (957ms)
-			LoadAssemblies (98ms)
+		EndReloadAssembly (697ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
+			SetupTypeCache (107ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (719ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (511ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (457ms)
+				InitializePlatformSupportModulesInManaged (307ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
+				RefreshPlugins (78ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007737 seconds.
+Registered in 0.005301 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 129.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 78.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.580 seconds
+- Completed reload, in  1.458 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3581ms)
-		BeginReloadAssembly (152ms)
+	ReloadAssembly (1459ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (3189ms)
-			LoadAssemblies (1652ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1233ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (323ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (1090ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (792ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (130ms)
-				BeforeProcessingInitializeOnLoad (155ms)
-				ProcessInitializeOnLoadAttributes (526ms)
-				ProcessInitializeOnLoadMethodAttributes (246ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (423ms)
+				ProcessInitializeOnLoadMethodAttributes (159ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 2.25 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4579 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (337.2 KB). Loaded Objects now: 5024.
-Memory consumption went from 197.9 MB to 197.6 MB.
-Total: 9.490000 ms (FindLiveObjects: 0.400200 ms CreateObjectMapping: 0.375700 ms MarkObjects: 8.352700 ms  DeleteObjects: 0.359000 ms)
+Unloading 4594 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (335.8 KB). Loaded Objects now: 5039.
+Memory consumption went from 200.4 MB to 200.1 MB.
+Total: 7.217100 ms (FindLiveObjects: 0.366500 ms CreateObjectMapping: 0.464200 ms MarkObjects: 6.234700 ms  DeleteObjects: 0.150800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005948 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.527 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1528ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1276ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (791ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (461ms)
+				ProcessInitializeOnLoadMethodAttributes (209ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (308.3 KB). Loaded Objects now: 5042.
+Memory consumption went from 188.8 MB to 188.5 MB.
+Total: 8.972000 ms (FindLiveObjects: 0.343300 ms CreateObjectMapping: 0.368700 ms MarkObjects: 8.131400 ms  DeleteObjects: 0.127400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,617 +224,289 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 45757.931781 seconds.
+  Time since last request: 26277.928681 seconds.
+  path: Assets/Scripts/Attack/Bullet.prefab
+  artifactKey: Guid(0735c71808d59834fa998138da65fa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Attack/Bullet.prefab using Guid(0735c71808d59834fa998138da65fa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ba927c4a24b3447a9c859f82bc0525') in 0.031956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.987775 seconds.
+  path: Assets/Scripts/Attack/Bullet.prefab
+  artifactKey: Guid(0735c71808d59834fa998138da65fa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Attack/Bullet.prefab using Guid(0735c71808d59834fa998138da65fa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b216a7e59a725807b32c64c421cbf08c') in 0.002844 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005393 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.402 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1403ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1140ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (685ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (405ms)
+				ProcessInitializeOnLoadMethodAttributes (170ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (308.4 KB). Loaded Objects now: 5046.
+Memory consumption went from 188.8 MB to 188.5 MB.
+Total: 8.656200 ms (FindLiveObjects: 0.400100 ms CreateObjectMapping: 0.322500 ms MarkObjects: 7.817000 ms  DeleteObjects: 0.115600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 177.820890 seconds.
+  path: Assets/Scripts/Attack/Bullet.prefab
+  artifactKey: Guid(0735c71808d59834fa998138da65fa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Attack/Bullet.prefab using Guid(0735c71808d59834fa998138da65fa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbacf412dfe94bdf6906ba959f8b3fe') in 0.016574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.704465 seconds.
+  path: Assets/Characters/Monster/Bat.prefab
+  artifactKey: Guid(bfd627504ba0f274eb664a0156e9c6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Monster/Bat.prefab using Guid(bfd627504ba0f274eb664a0156e9c6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd53f0c60d15db59d6c42b527ae5258') in 0.007490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008994 seconds.
+  path: Assets/Characters/Monster/Crab.prefab
+  artifactKey: Guid(48a91e68c9b16bf4286f07da91f37649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Monster/Crab.prefab using Guid(48a91e68c9b16bf4286f07da91f37649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b77249f52c7308b807e27c8d88fcd6') in 0.004126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Characters/Monster/Spiked Slime.prefab
+  artifactKey: Guid(e063c773763ef994ab9d5cbddcdc1760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Monster/Spiked Slime.prefab using Guid(e063c773763ef994ab9d5cbddcdc1760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13148c53a41cde89f1eaaa6d29430b4') in 0.003210 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005908 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.370 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1370ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1124ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (669ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (401ms)
+				ProcessInitializeOnLoadMethodAttributes (155ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (308.3 KB). Loaded Objects now: 5049.
+Memory consumption went from 188.8 MB to 188.5 MB.
+Total: 8.229500 ms (FindLiveObjects: 0.400800 ms CreateObjectMapping: 0.308700 ms MarkObjects: 7.412900 ms  DeleteObjects: 0.106200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 145.685068 seconds.
+  path: Assets/2DGraphic/UI/Screenshot 2023-09-13 162253.png
+  artifactKey: Guid(b5fc4fe761496be4bb618e1c4c247d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGraphic/UI/Screenshot 2023-09-13 162253.png using Guid(b5fc4fe761496be4bb618e1c4c247d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3f90e0107c9005255d023761e6630c') in 0.025989 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005426 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.363 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1364ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1103ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (671ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (397ms)
+				ProcessInitializeOnLoadMethodAttributes (167ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (308.3 KB). Loaded Objects now: 5052.
+Memory consumption went from 188.8 MB to 188.5 MB.
+Total: 7.625200 ms (FindLiveObjects: 0.361600 ms CreateObjectMapping: 0.301600 ms MarkObjects: 6.795100 ms  DeleteObjects: 0.165500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 105.146467 seconds.
+  path: Assets/Scenes/MainGmae.unity
+  artifactKey: Guid(4fe0e9a1cc930d74586460273c5ab9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGmae.unity using Guid(4fe0e9a1cc930d74586460273c5ab9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5311fce5fd99ab42a1c4b2a4bedd8a5c') in 0.011522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.627023 seconds.
+  path: Assets/Scenes/Examples/Scene_Biome_Desert.unity
+  artifactKey: Guid(092574b58ebb13a4283ebba9a93df23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Examples/Scene_Biome_Desert.unity using Guid(092574b58ebb13a4283ebba9a93df23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b21694264a4c648654ac8d8983b6fe5') in 0.007184 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005938 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.348 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1349ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1112ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (674ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (394ms)
+				ProcessInitializeOnLoadMethodAttributes (167ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4450 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (308.2 KB). Loaded Objects now: 5055.
+Memory consumption went from 188.8 MB to 188.5 MB.
+Total: 6.938100 ms (FindLiveObjects: 0.409500 ms CreateObjectMapping: 0.349500 ms MarkObjects: 6.083500 ms  DeleteObjects: 0.094700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.823516 seconds.
   path: Assets/Scenes/Menu.unity
   artifactKey: Guid(95f08233f77891c42ae30d1f96819f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu.unity using Guid(95f08233f77891c42ae30d1f96819f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8904019f903c1042d0fffaecf2dd739a') in 0.018378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 347.394756 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Bat/Bat_Death_FX.png
-  artifactKey: Guid(02ad04bd8af738b44944e0203101294a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Bat/Bat_Death_FX.png using Guid(02ad04bd8af738b44944e0203101294a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008b619c6062b275bd7b237fab6b84e1') in 0.116328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.944898 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Bat/Bat_Full_FX.png
-  artifactKey: Guid(c8c47f33b2852e74696a02bcc97dee5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Bat/Bat_Full_FX.png using Guid(c8c47f33b2852e74696a02bcc97dee5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9feb8b2cf48cafa179544c5d47b83a6b') in 0.071187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_AttackA.png
-  artifactKey: Guid(43ea6403ff0866d41a323ec4c80e9612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_AttackA.png using Guid(43ea6403ff0866d41a323ec4c80e9612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9d98b6c6bb1e61ec9465b10291165e') in 0.057771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_119.png
-  artifactKey: Guid(2bb8ace67277aec47a53827d4d033556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_119.png using Guid(2bb8ace67277aec47a53827d4d033556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba7c93d5cb3aa46a71bbded5ddddd8d') in 0.102704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_67.png
-  artifactKey: Guid(0089e157e7d31024cb88a62282921e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_67.png using Guid(0089e157e7d31024cb88a62282921e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267d2f6db342b0b2013c4e4ad831c9c8') in 0.064143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_109.png
-  artifactKey: Guid(ad36d52cca272eb499f0d771657645ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_109.png using Guid(ad36d52cca272eb499f0d771657645ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5724ebd485fe294b70f7629a3d90ad4') in 0.077522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_02.png
-  artifactKey: Guid(6feaffb95601b4b4aaaafae1786cb932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_02.png using Guid(6feaffb95601b4b4aaaafae1786cb932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca4e4ea7c88ead029020e45423db298') in 0.044872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Temple/MoltenLava_Animation/molten_cornerN_4.png
-  artifactKey: Guid(bb20b1577c32964448f4727a765c4ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Temple/MoltenLava_Animation/molten_cornerN_4.png using Guid(bb20b1577c32964448f4727a765c4ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70093331d30eca87440b08f9867ddc2') in 0.041857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Flat/snow_W.png
-  artifactKey: Guid(f88488d954b96b14c9baccaf11d9d0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Flat/snow_W.png using Guid(f88488d954b96b14c9baccaf11d9d0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed964754b9d126fb05baf9f2b4fc699') in 0.022662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Skull/Bones_SingleSkull_Death_FX.png
-  artifactKey: Guid(eaf5544f2cc61994483fc9ce31859c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Skull/Bones_SingleSkull_Death_FX.png using Guid(eaf5544f2cc61994483fc9ce31859c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d9c897b339ff595b6b8ec0520ccd01') in 0.090808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Temple/MoltenLava_Animation/molten_cornerN_1.png
-  artifactKey: Guid(b8ae7bad68d546048ac7c625fa5371ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Temple/MoltenLava_Animation/molten_cornerN_1.png using Guid(b8ae7bad68d546048ac7c625fa5371ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c09b852f094973d43502f9679ab1f9f') in 0.071979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_56.png
-  artifactKey: Guid(1ca26f020a1a57145bd237282c36196f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_56.png using Guid(1ca26f020a1a57145bd237282c36196f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fa8f8d00f9b3fb5c28beae67a6d9bd') in 0.030923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_114.png
-  artifactKey: Guid(e5ae1bffceb57d940a2af6e3b08ea951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_114.png using Guid(e5ae1bffceb57d940a2af6e3b08ea951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208318274aabc67573b6914cf8b713af') in 0.045435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemaps/Isometric/Colliders/ColliderSprites/tile-border-right.png
-  artifactKey: Guid(8b08bcd21cb8a42fba868f390b68099b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Colliders/ColliderSprites/tile-border-right.png using Guid(8b08bcd21cb8a42fba868f390b68099b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce718f6fe71a7d980ff3c9a6a79d29c8') in 0.085861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_41.png
-  artifactKey: Guid(ddba491d794068b46ba646e1efbf32a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_41.png using Guid(ddba491d794068b46ba646e1efbf32a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b0a31bca154b6f163d2bd986be8caa') in 0.064105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Skull/Bones_SingleSkull_Death.png
-  artifactKey: Guid(333670492a787154e93a3dd3f2956ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Skull/Bones_SingleSkull_Death.png using Guid(333670492a787154e93a3dd3f2956ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dbe34fe2fc2293a84d4641dedab0e6') in 0.062534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Characters/Witch/AnimationSprites/Run E/witch run E02.png
-  artifactKey: Guid(2e8b908b455934eaab9d3589c19fe2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Witch/AnimationSprites/Run E/witch run E02.png using Guid(2e8b908b455934eaab9d3589c19fe2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c4247f7a1cd65c986a15305fe047ec') in 0.044066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Characters/Witch/AnimationSprites/Run SE/witch run SE05.png
-  artifactKey: Guid(1d638e07f62b140fc8c3604b32bbaa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Witch/AnimationSprites/Run SE/witch run SE05.png using Guid(1d638e07f62b140fc8c3604b32bbaa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a50a7d920e2c8a604d067a2478c55ea') in 0.079767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Temple/Raised/temple-sliced_35.png
-  artifactKey: Guid(fc19ae8e4abb1ae4a86d966b9d9b6df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Temple/Raised/temple-sliced_35.png using Guid(fc19ae8e4abb1ae4a86d966b9d9b6df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd65dbd021549a30ba134b5e97b61ca') in 0.063703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tilemaps/Isometric/Colliders/ColliderSprites/stairs-collider-a.png
-  artifactKey: Guid(97367e8fd5a5c405fa7cda4d1139ad5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Colliders/ColliderSprites/stairs-collider-a.png using Guid(97367e8fd5a5c405fa7cda4d1139ad5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3685ef3e28769b764e8dc46474227d67') in 0.051190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Characters/Witch/AnimationSprites/Run SE/witch run SE00.png
-  artifactKey: Guid(42be11bdcac154ba6a01fa28816b01be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Witch/AnimationSprites/Run SE/witch run SE00.png using Guid(42be11bdcac154ba6a01fa28816b01be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6693108524d24d07be164965d0a0ecb') in 0.057087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Flat/snow_center_3.png
-  artifactKey: Guid(3c110f85dd5968843b4e73e2fbc9c44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Flat/snow_center_3.png using Guid(3c110f85dd5968843b4e73e2fbc9c44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7532504c474085d778d27149ab22ee3') in 0.020954 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tilemaps/Isometric/Colliders/ColliderSprites/tile-half-2.png
-  artifactKey: Guid(ed8786350b43746719629d0e1c8d5a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Colliders/ColliderSprites/tile-half-2.png using Guid(ed8786350b43746719629d0e1c8d5a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fb7062217c4c0be8bd0cb7b881229d') in 0.049459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_39.png
-  artifactKey: Guid(a850e3cb437227244bbc4b9b7636ed96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_39.png using Guid(a850e3cb437227244bbc4b9b7636ed96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b709a7e3fbde79ff15847d6d486b6c') in 0.054366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_36.png
-  artifactKey: Guid(ab6e01dfc06c8fd46a222a421b0ae0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_36.png using Guid(ab6e01dfc06c8fd46a222a421b0ae0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9427803b43934bcf9dbfd5aab22e63d1') in 0.082190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Desert/Raised/desert-sliced_53.png
-  artifactKey: Guid(dbfe26f852ac8d046afaba7b0663c9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Raised/desert-sliced_53.png using Guid(dbfe26f852ac8d046afaba7b0663c9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde5b674df9b47710c6f32e043bbe4ee') in 0.067830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Attack_FX.png
-  artifactKey: Guid(9f4666dd2c43d6c4eabd7fca76affcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Attack_FX.png using Guid(9f4666dd2c43d6c4eabd7fca76affcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803dcf80088d073573e3bcf68e0290e1') in 0.066066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Spiked Slime/Slime_Spiked_Full_FX.png
-  artifactKey: Guid(0ba61f9dd40068e4999bb58f3c876283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Spiked Slime/Slime_Spiked_Full_FX.png using Guid(0ba61f9dd40068e4999bb58f3c876283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320e591c5ee70db7dae6bcf17217dee0') in 0.227175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_39.png
-  artifactKey: Guid(455da817aedab144ea7cfa86b08801b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_39.png using Guid(455da817aedab144ea7cfa86b08801b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee1e15ff9b7d5decc3a132e2cc2e8cc') in 0.120808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Characters/Witch/AnimationSprites/Run S/witch run S02.png
-  artifactKey: Guid(bcd509b8209dc4a3fa01e45e0b8cccda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Witch/AnimationSprites/Run S/witch run S02.png using Guid(bcd509b8209dc4a3fa01e45e0b8cccda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3109b2b063e22226ed52940914e6b096') in 0.080374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_AttackA.png
-  artifactKey: Guid(38d9e19709461bc47bd5b6e570f9e4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_AttackA.png using Guid(38d9e19709461bc47bd5b6e570f9e4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e12834fe362272f2cb24383b8910d9') in 0.078343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_34.png
-  artifactKey: Guid(8106b417afff10d4fa35cfd800501443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_34.png using Guid(8106b417afff10d4fa35cfd800501443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e120e3d7074bc3b879425739bf824911') in 0.031074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Temple/Raised/temple-sliced_31.png
-  artifactKey: Guid(680f1fa16cdd7174d9bc73ec35cf9514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Temple/Raised/temple-sliced_31.png using Guid(680f1fa16cdd7174d9bc73ec35cf9514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d515a53f21457043a50345f5350609') in 0.148614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Temple/Raised/temple-sliced_34.png
-  artifactKey: Guid(742ffae53647fae438266fae8cc26611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Temple/Raised/temple-sliced_34.png using Guid(742ffae53647fae438266fae8cc26611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5974c4631cb45c916b8f9bdb88195d') in 0.054602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemaps/Isometric/Colliders/ColliderSprites/stairs-border.png
-  artifactKey: Guid(063edbe48872b4ab39d61247bfbc7217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Colliders/ColliderSprites/stairs-border.png using Guid(063edbe48872b4ab39d61247bfbc7217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166bb712696e4128deff663876657bf0') in 0.057920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Flat/snow_center_2.png
-  artifactKey: Guid(9d613a282e76d0840902f2a92c4eb1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Flat/snow_center_2.png using Guid(9d613a282e76d0840902f2a92c4eb1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91be842ccee4bde66a0ee6b93b4d8374') in 0.060393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_65.png
-  artifactKey: Guid(34b49ee9e992b6a46a32eb078f445796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_65.png using Guid(34b49ee9e992b6a46a32eb078f445796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea7a740391846167e3a0b6fad95e6a8') in 0.044538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_70.png
-  artifactKey: Guid(5e3cbc69ba919b5408466a6ffee40694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_70.png using Guid(5e3cbc69ba919b5408466a6ffee40694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81fd2e22aad438daa3a3da28508907c') in 0.110138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Temple/Raised/temple-sliced_28.png
-  artifactKey: Guid(9508c960308f5ac4fbe4d549dc0b9cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Temple/Raised/temple-sliced_28.png using Guid(9508c960308f5ac4fbe4d549dc0b9cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49d58dffb4dff46d33206896053a0b3') in 0.028808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_115.png
-  artifactKey: Guid(cdb2c408ac519d54fabf5a9509112e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_115.png using Guid(cdb2c408ac519d54fabf5a9509112e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6786a36daccd437e9eb66f69ec7a73b8') in 0.062538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Characters/Witch/AnimationSprites/Run N/witch run N00.png
-  artifactKey: Guid(5927a47e43c3a495ab2f4736eb3c0312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Witch/AnimationSprites/Run N/witch run N00.png using Guid(5927a47e43c3a495ab2f4736eb3c0312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c662fd311986aa341ca410ac38da09') in 0.062540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_45.png
-  artifactKey: Guid(c757761b08f64df4b93244d5ef737b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_45.png using Guid(c757761b08f64df4b93244d5ef737b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da0e825c0481bfbbb7ec2c98dda8f21') in 0.075975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Temple/Raised/temple-sliced_36.png
-  artifactKey: Guid(0cece30d2ac5bde4f967bfa3aae79e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Temple/Raised/temple-sliced_36.png using Guid(0cece30d2ac5bde4f967bfa3aae79e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb444f5bfb49031a431765b9f1e0365') in 0.028575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_55.png
-  artifactKey: Guid(ed50c1ae4775eea499022f215889061f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_55.png using Guid(ed50c1ae4775eea499022f215889061f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccc77cba7e4e7022fab857bcfc27f22') in 0.028492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Full_FX.png
-  artifactKey: Guid(644b5e0fc2845cd42961d91d1151e072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Full_FX.png using Guid(644b5e0fc2845cd42961d91d1151e072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73c59ee43603d24336762c2795007d9') in 0.067548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_37.png
-  artifactKey: Guid(c136e63f4d472cb4087d99948c211288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_37.png using Guid(c136e63f4d472cb4087d99948c211288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fea82bec689942647398490c2167f2') in 0.029100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tilemaps/Isometric/Colliders/ColliderSprites/tile-border-vertical.png
-  artifactKey: Guid(9f01b32e1265842a8ad55a4483d583c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Colliders/ColliderSprites/tile-border-vertical.png using Guid(9f01b32e1265842a8ad55a4483d583c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3487933b61e234928d59a67310383a98') in 0.072715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_37.png
-  artifactKey: Guid(6d6c2215fdf1a454b8b9cc44b33485fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_37.png using Guid(6d6c2215fdf1a454b8b9cc44b33485fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce75b72279bc106d08c4db2ce673fb8') in 0.040320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Tilemaps/Isometric/Colliders/ColliderSprites/tile-border-left.png
-  artifactKey: Guid(6b9080908d34f4ed4b111f8752045ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Colliders/ColliderSprites/tile-border-left.png using Guid(6b9080908d34f4ed4b111f8752045ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fdd3b1018f1d7a256e6c4ad9bdd220') in 0.027699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_Full.png
-  artifactKey: Guid(d117b16d50b7bd645ab2f86da4e1f0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_Full.png using Guid(d117b16d50b7bd645ab2f86da4e1f0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b8cdae0b3ae66b54c1f982c3715c7e') in 0.068593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Characters/Witch/AnimationSprites/Static/witch static02.png
-  artifactKey: Guid(c94b2ada7d068424d9b4c20219f862fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Witch/AnimationSprites/Static/witch static02.png using Guid(c94b2ada7d068424d9b4c20219f862fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889d598005b965e4252d26baddaa9bb2') in 0.048465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Temple/MoltenLava_Animation/molten_cornerN_0.png
-  artifactKey: Guid(3bb817e6aa9d2e746ab2031d8871da73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Temple/MoltenLava_Animation/molten_cornerN_0.png using Guid(3bb817e6aa9d2e746ab2031d8871da73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9339234608d5cc302a885e3e11b24e2e') in 0.036372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_05.png
-  artifactKey: Guid(a71901f11b48de2459689a91e67f7dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_05.png using Guid(a71901f11b48de2459689a91e67f7dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bddd0d7a505a02abfd3d215dc1d1de4') in 0.036632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Decoration/decoration_snowcap_rock_2_mask.png
-  artifactKey: Guid(7c2c603047c6e8b4799f9083777984bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Decoration/decoration_snowcap_rock_2_mask.png using Guid(7c2c603047c6e8b4799f9083777984bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f0db2843ff1af6da16b5fd451e237a') in 0.070006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Temple/MoltenLava_Animation/molten_center.png
-  artifactKey: Guid(43d4aad50c92a7844b9ad0a04dfc51be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Temple/MoltenLava_Animation/molten_center.png using Guid(43d4aad50c92a7844b9ad0a04dfc51be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0a2c00a648256a721bde3c8f6f1d7e') in 0.043211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Characters/Witch/AnimationSprites/Static/witch static03.png
-  artifactKey: Guid(7d6b57cfe45da4c82afec5c97007d3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Witch/AnimationSprites/Static/witch static03.png using Guid(7d6b57cfe45da4c82afec5c97007d3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcba6981280e0ce09a55ba6a6c3198f2') in 0.074859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_131.png
-  artifactKey: Guid(c2833c23be91e7846bf7a728141a4f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_131.png using Guid(c2833c23be91e7846bf7a728141a4f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036597d27075d3c3902851b52dc12d05') in 0.032920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Tilemaps/Isometric/Colliders/ColliderSprites/slope-a.png
-  artifactKey: Guid(3b9c38445f15341d3a30049b1e724d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Colliders/ColliderSprites/slope-a.png using Guid(3b9c38445f15341d3a30049b1e724d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a22dd2844489e03abff3b9457c53317') in 0.092518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Characters/Witch/AnimationSprites/Run SE/witch run SE01.png
-  artifactKey: Guid(466bf6a56c6434d4f82afc772b264ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Witch/AnimationSprites/Run SE/witch run SE01.png using Guid(466bf6a56c6434d4f82afc772b264ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb963b2f5a7e8bdad60456fa379c64a') in 0.025783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_134.png
-  artifactKey: Guid(d5cce0fe1d4e2ca4f8325f25a33942c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_134.png using Guid(d5cce0fe1d4e2ca4f8325f25a33942c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3396271f284c6840894d75a0e3fdb3ac') in 0.019798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_136.png
-  artifactKey: Guid(1a76418d2e9f7b94293e324e5277c0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_136.png using Guid(1a76418d2e9f7b94293e324e5277c0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98c4ec18232d8d02907cd48e13c6a16') in 0.024540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Run.png
-  artifactKey: Guid(2327dee1e20363b41a2488a631a0a941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Run.png using Guid(2327dee1e20363b41a2488a631a0a941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6f7cd67e51ce96b393045f189c2f7b') in 0.107247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_42.png
-  artifactKey: Guid(188981420f669284caa96a931b7de9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_42.png using Guid(188981420f669284caa96a931b7de9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ae4dbf5bd1fa6b6299514eaf832ff8') in 0.111911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_43.png
-  artifactKey: Guid(32e921203e689254cbd121cdd3fe73d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_43.png using Guid(32e921203e689254cbd121cdd3fe73d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8afc52363d770771a7a02617b290ca6') in 0.053568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_IdleA.png
-  artifactKey: Guid(6946cd59d8c7e234f851a23d8ce98454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_IdleA.png using Guid(6946cd59d8c7e234f851a23d8ce98454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0364f6142bd11980a6116cadb7fff2a') in 0.042339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Pebble/Pebble_Full.png
-  artifactKey: Guid(3b7cf830c61f98a4292d1d257bab26a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Pebble/Pebble_Full.png using Guid(3b7cf830c61f98a4292d1d257bab26a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d6f29081f74d24faba603aff935ceb') in 0.061612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Characters/Witch/AnimationSprites/Run S/witch run S03.png
-  artifactKey: Guid(d25c0aca1001941689a8ea7705ec4bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Witch/AnimationSprites/Run S/witch run S03.png using Guid(d25c0aca1001941689a8ea7705ec4bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdae2db35f965df8f221a31972a794b') in 0.015537 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Spiked Slime/Slime_Spiked_Run.png
-  artifactKey: Guid(bbbae09279b66cb48b7d05525773c545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Spiked Slime/Slime_Spiked_Run.png using Guid(bbbae09279b66cb48b7d05525773c545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c2e0089247254b2f74aa6105813525') in 0.257896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Pebble/Pebble_Idle.png
-  artifactKey: Guid(1237f579e0f6c154e8fb79d5d05d519d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Pebble/Pebble_Idle.png using Guid(1237f579e0f6c154e8fb79d5d05d519d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c7ee0c040f2ded837d5ea999dfe153') in 0.088917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_113.png
-  artifactKey: Guid(8404df5bb199f564d965a4ed7062e209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_113.png using Guid(8404df5bb199f564d965a4ed7062e209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83beb139988938ec754838d0de4edd4') in 0.089394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Temple/Raised/temple-sliced_32.png
-  artifactKey: Guid(dae384adc4dc4b54182664e43e8a083d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Temple/Raised/temple-sliced_32.png using Guid(dae384adc4dc4b54182664e43e8a083d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290233022a8a7cd3a72764d3cde408f1') in 0.049222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_110.png
-  artifactKey: Guid(2aa3b911dccb04147bb0e435767fe363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_110.png using Guid(2aa3b911dccb04147bb0e435767fe363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c781728f06b6a5c1e23d3b3f4386c5') in 0.053969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_Full_FX.png
-  artifactKey: Guid(e5a4c6877f7a1d74aac8a9fc1620e166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_Full_FX.png using Guid(e5a4c6877f7a1d74aac8a9fc1620e166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e225f77378e2caf348eb6177d28c844f') in 0.088566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_40.png
-  artifactKey: Guid(ce68154d43b6dd04eaa9b8909ea4bbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_40.png using Guid(ce68154d43b6dd04eaa9b8909ea4bbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc4b30a0fa43e3c6a39a00a9a3eac62') in 0.083109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Characters/Witch/AnimationSprites/Static/witch static01.png
-  artifactKey: Guid(146b9431d231f4527aa174d2cb0a0594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Witch/AnimationSprites/Static/witch static01.png using Guid(146b9431d231f4527aa174d2cb0a0594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b700bb9ec4331605c876fbfa5465f99') in 0.054932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_116.png
-  artifactKey: Guid(bae8e91c398edc84fae8f63c7d498c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_116.png using Guid(bae8e91c398edc84fae8f63c7d498c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58990ba6097719af8fbf7e74d26ad07e') in 0.032164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_10.png
-  artifactKey: Guid(f3671c3935f012845bff1027f68c40ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_10.png using Guid(f3671c3935f012845bff1027f68c40ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9460c501598ad3cb46340759d5e2afe0') in 0.038579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Temple/Raised/temple-sliced_38.png
-  artifactKey: Guid(3dee71ae3d9dc64458491b098ccc6111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Temple/Raised/temple-sliced_38.png using Guid(3dee71ae3d9dc64458491b098ccc6111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023cc9a83930eef84ed69eeb945b0f06') in 0.118471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Temple/Decoration/statue_cat_NW.png
-  artifactKey: Guid(ef43e652542247e49bfa5ee0c458492a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Temple/Decoration/statue_cat_NW.png using Guid(ef43e652542247e49bfa5ee0c458492a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164e107ccfa9dbf60f087c9bfaf1899d') in 0.042521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_41.png
-  artifactKey: Guid(09c490b695820a04f807a86331d80b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Hexagonal/Sprites/hex-sliced_41.png using Guid(09c490b695820a04f807a86331d80b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1349f1a9a784523ab2aee1a634b0e00f') in 0.035725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Characters/Witch/AnimationSprites/Run N/witch run N01.png
-  artifactKey: Guid(209f0f2ca47ab4d8bb6397b267227942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Witch/AnimationSprites/Run N/witch run N01.png using Guid(209f0f2ca47ab4d8bb6397b267227942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04443f7db55c7150e752081665cc8dbf') in 0.100514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Characters/Witch/AnimationSprites/Static/witch static08.png
-  artifactKey: Guid(17eb51429539a497d8f585f27d81c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Witch/AnimationSprites/Static/witch static08.png using Guid(17eb51429539a497d8f585f27d81c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e496c368aef8a9f0b2da24f2f623acd') in 0.054064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_59.png
-  artifactKey: Guid(298d6e68c0cd48746a19fbbf30d2bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_59.png using Guid(298d6e68c0cd48746a19fbbf30d2bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc031081cb1cf1969b86f3f23bea44b') in 0.033919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Raised/elevation_snow_corner_SW.png
-  artifactKey: Guid(0fc0507f87ca475428ec0a0eec48a875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Raised/elevation_snow_corner_SW.png using Guid(0fc0507f87ca475428ec0a0eec48a875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a0c6e93db0b8b818a0c1dda0179f92') in 0.058936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Desert/Raised/desert-sliced_33.png
-  artifactKey: Guid(c3aafa2fe33f95e4f9c22a0521bd9286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Raised/desert-sliced_33.png using Guid(c3aafa2fe33f95e4f9c22a0521bd9286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6991bc699ce4f6b9c013b0a3f5638d') in 0.039788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Raised/elevation_snow_E.png
-  artifactKey: Guid(04a9242d27112364c903f48d2aa91100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Raised/elevation_snow_E.png using Guid(04a9242d27112364c903f48d2aa91100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cf69b6b8056d77b8adc7c8cac1e236') in 0.024334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Desert/Raised/desert-sliced_26.png
-  artifactKey: Guid(f5a21f39a3306ad4e8b7c99428ddb2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Raised/desert-sliced_26.png using Guid(f5a21f39a3306ad4e8b7c99428ddb2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c1c40a1231f665e7d0d686d62e1c09') in 0.040220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Decoration/decoration_rock_2.png
-  artifactKey: Guid(6f98eaaf7a20cf34e8ac91ee48ec8e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Decoration/decoration_rock_2.png using Guid(6f98eaaf7a20cf34e8ac91ee48ec8e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023c653bbc007ff5763ce9e937ce1a18') in 0.102021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Raised/elevation_snow_corner_E.png
-  artifactKey: Guid(226ac6f40d3e99945ae56c2809a7b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Raised/elevation_snow_corner_E.png using Guid(226ac6f40d3e99945ae56c2809a7b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ff1084b6c114480659122f39167642') in 0.052646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Decoration/decoration_rock_1.png
-  artifactKey: Guid(5f3ef23c2f15bec45831589f2f6a8e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Decoration/decoration_rock_1.png using Guid(5f3ef23c2f15bec45831589f2f6a8e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c139e8c5c4f8c6fc369ef367c48b02c0') in 0.044007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Skull/Bones_SingleSkull_Idle.png
-  artifactKey: Guid(26f2fab31eacb6948aaee40453cfc60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Skull/Bones_SingleSkull_Idle.png using Guid(26f2fab31eacb6948aaee40453cfc60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99942acb660c29a0a19a2e5ba40dbf12') in 0.054710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Raised/elevation_snow_N.png
-  artifactKey: Guid(6975db04a08517d418e7dfdc19e749d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Raised/elevation_snow_N.png using Guid(6975db04a08517d418e7dfdc19e749d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b956e6f25d7cd5b9969347e7d90a8d') in 0.039631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Decoration/decoration_rock_NW_mask.png
-  artifactKey: Guid(835d558c2a7f6af42a7fdf9c1c4389de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Decoration/decoration_rock_NW_mask.png using Guid(835d558c2a7f6af42a7fdf9c1c4389de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f8c0064ae0603a88837387a57ff9b2') in 0.085178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Decoration/decoration_rock_NW.png
-  artifactKey: Guid(e29fc5ac0affeed418adead9dba8eb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Decoration/decoration_rock_NW.png using Guid(e29fc5ac0affeed418adead9dba8eb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86461f4bda5ee9091fd454ad9f0951fe') in 0.030829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube13.png
-  artifactKey: Guid(c72245417f7c7fe4c92d4d83d83382e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube13.png using Guid(c72245417f7c7fe4c92d4d83d83382e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5606d6031417a57edb61a8f4122f54') in 0.048336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_57.png
-  artifactKey: Guid(aa22187d5a686b0449798b05aef5d043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_57.png using Guid(aa22187d5a686b0449798b05aef5d043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d5e749e414369c72f2f4a264489ba5') in 0.081467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Flat/snow_SE.png
-  artifactKey: Guid(8b57c58ba70d7c74781732bbd4177596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Flat/snow_SE.png using Guid(8b57c58ba70d7c74781732bbd4177596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cec2face454303c113de3848f3e9b94') in 0.040332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Characters/Witch/AnimationSprites/Run S/witch run S04.png
-  artifactKey: Guid(ea2a9989ee4bc4808987ac7796b6f02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Witch/AnimationSprites/Run S/witch run S04.png using Guid(ea2a9989ee4bc4808987ac7796b6f02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25638e5419accd53745e77c9b3e32d94') in 0.039846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Death_FX.png
-  artifactKey: Guid(ceb49d51625b9e349baca35d6f527cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Death_FX.png using Guid(ceb49d51625b9e349baca35d6f527cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73be6202855c338022b0695a4a35d50f') in 0.106349 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Raised/elevation_snow_corner_S.png
-  artifactKey: Guid(988bbbbf0d2413042ac1d34a8057e6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/FrozenMountain/Raised/elevation_snow_corner_S.png using Guid(988bbbbf0d2413042ac1d34a8057e6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26602048da40f4d90281bb7d4835f2d5') in 0.035515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_36.png
-  artifactKey: Guid(f118d6f59c524f14fbb314a1065c65c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_36.png using Guid(f118d6f59c524f14fbb314a1065c65c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4670c822ec79fc4430983e2144025d6f') in 0.011784 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/Scenes/Menu.unity using Guid(95f08233f77891c42ae30d1f96819f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2bf8f44b063a38863efb53677d7e3c') in 0.010351 seconds 

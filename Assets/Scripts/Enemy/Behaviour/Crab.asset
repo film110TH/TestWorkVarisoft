@@ -20,7 +20,7 @@ MonoBehaviour:
     SightRang: 200
     AttackRang: 60
     attackType: 0
-    behaviourType: 0
+    behaviourType: 1
     tagbulletPooling: 
     Score: 2
     particle: {fileID: 0}

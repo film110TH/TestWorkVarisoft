@@ -116,6 +116,7 @@ GameObject:
   - component: {fileID: 6275758344219286739}
   - component: {fileID: 7247056757351366448}
   - component: {fileID: 8500501380117965240}
+  - component: {fileID: 3840449332209442449}
   m_Layer: 0
   m_Name: Rat
   m_TagString: Enemy
@@ -238,6 +239,7 @@ MonoBehaviour:
     attackType: 0
     behaviourType: 0
     tagbulletPooling: 
+    Score: 0
     particle: {fileID: 0}
   animator: {fileID: 0}
   target: {fileID: 0}
@@ -281,6 +283,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!210 &3840449332209442449
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3377648354420638609}
+  m_Enabled: 1
+  m_SortingLayerID: 2130146985
+  m_SortingLayer: 1
+  m_SortingOrder: -1
 --- !u!1 &5414105787332416035
 GameObject:
   m_ObjectHideFlags: 0

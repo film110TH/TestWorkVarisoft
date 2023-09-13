@@ -301,6 +301,7 @@ GameObject:
   - component: {fileID: 185359051}
   - component: {fileID: 185359050}
   - component: {fileID: 185359052}
+  - component: {fileID: 3423443028759182862}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Enemy
@@ -460,9 +461,21 @@ MonoBehaviour:
     attackType: 0
     behaviourType: 0
     tagbulletPooling: 
+    Score: 0
     particle: {fileID: 0}
   animator: {fileID: 0}
   target: {fileID: 0}
   hpbar: {fileID: 0}
   rb2d: {fileID: 0}
   looktarget: {fileID: 0}
+--- !u!210 &3423443028759182862
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707388086448258552}
+  m_Enabled: 1
+  m_SortingLayerID: 2130146985
+  m_SortingLayer: 1
+  m_SortingOrder: -1
